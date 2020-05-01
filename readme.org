@@ -14,21 +14,21 @@ If you want to use it from scratch, run these commands.
 
 #+BEGIN_SRC sh
 yarn init
-yarn add vue
-yarn add webpack
-yarn add webpack-dev-server
-yarn add webpack-cli
-yarn add html-webpack-plugin
-yarn add webpack-fix-style-only-entries
-yarn add mini-css-extract-plugin
-yarn add optimize-css-assets-webpack-plugin
-yarn add vue-loader
-yarn add webpack-merge
+yarn add copy-webpack-plugin
 yarn add css-loader
+yarn add html-webpack-plugin
+yarn add mini-css-extract-plugin
+yarn add node-sass
+yarn add optimize-css-assets-webpack-plugin
 yarn add resolve-url-loader
 yarn add sass-loader
-yarn add node-sass
-yarn add copy-webpack-plugin
+yarn add vue
+yarn add vue-loader
+yarn add webpack
+yarn add webpack-cli
+yarn add webpack-dev-server
+yarn add webpack-fix-style-only-entries
+yarn add webpack-merge
 #+END_SRC
 
 It might be better for doing this way to avoid this issue.
