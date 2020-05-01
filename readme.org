@@ -1,0 +1,36 @@
+* How to use
+#+BEGIN_SRC sh
+yarn install
+yarn dev
+#+END_SRC
+
+** Generate static files
+#+BEGIN_SRC sh
+yarn production
+#+END_SRC
+
+* How to use from scratch
+If you want to use it from scratch, run these commands.
+
+#+BEGIN_SRC sh
+yarn init
+yarn add vue
+yarn add webpack
+yarn add webpack-dev-server
+yarn add webpack-cli
+yarn add html-webpack-plugin
+yarn add webpack-fix-style-only-entries
+yarn add mini-css-extract-plugin
+yarn add optimize-css-assets-webpack-plugin
+yarn add vue-loader
+yarn add webpack-merge
+yarn add css-loader
+yarn add resolve-url-loader
+yarn add sass-loader
+yarn add node-sass
+yarn add copy-webpack-plugin
+#+END_SRC
+
+It might be better for doing this way to avoid this issue.
+
+https://dev.wgao19.cc/yarn-upgrade-package/
