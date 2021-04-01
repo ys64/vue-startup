@@ -13,6 +13,8 @@ yarn production
 If you want to use it from scratch, run these commands.
 
 #+BEGIN_SRC sh
+rm yarn.lock
+
 yarn init
 yarn add copy-webpack-plugin
 yarn add css-loader
